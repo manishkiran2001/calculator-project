@@ -68,7 +68,7 @@ const App = () => {
 
   return (
     <div className="calculator-container">
-      <h1>Manish Kiran</h1>
+      <h1 id="developer_name">Manish Kiran</h1>
       <div className="calculator">
         <div className="display">{display || "0"}</div>
 

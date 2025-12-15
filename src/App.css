@@ -12,8 +12,15 @@ body {
 .calculator-container {
   min-height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+#developer_name{
+  color: white;
+  font-family: cursive;
+  font-size: 3vw;
 }
 
 .calculator {
@@ -86,3 +93,4 @@ body {
     font-size: 20px;
   }
 }
+
